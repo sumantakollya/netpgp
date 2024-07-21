@@ -1,0 +1,12 @@
+# $NetBSD: atlocal.in,v 1.5 2009/06/11 02:28:50 lukem Exp $
+
+TOPSRCDIR=/home/sumantakollya/Projects/netpgp
+export TOPSRCDIR
+
+PATH=/home/sumantakollya/Projects/netpgp/src/netpgp:/home/sumantakollya/Projects/netpgp/src/netpgpverify:$PATH
+export PATH
+
+testhomedir=/home/sumantakollya/Projects/netpgp/tests/homedir
+testpublickey=/home/sumantakollya/Projects/netpgp/tests/key-public.asc
+testprivatekey=/home/sumantakollya/Projects/netpgp/tests/key-private.asc
+testuserid=C7AB5F325F918728
